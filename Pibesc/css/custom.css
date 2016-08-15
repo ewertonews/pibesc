@@ -1,0 +1,174 @@
+body{
+    font-family: 'Gentium Book Basic', serif;
+    background-color: #E5E0DC;
+    font-size: 18px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: white; /* old IE */
+    background-color: white; /* Modern Browsers */
+}
+
+.eventos hr, .agenda hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #1B2F3F;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.feat-img{
+    width: 1140px;
+    height: 390px !important;
+}
+
+.center-links{
+    margin-top: 25px;
+    font-size: 1.2em;    
+}
+
+.center-links li a{
+    color: white !important;
+    text-transform: bold;
+}
+
+.go-right{
+    position: relative;
+    float: right;
+}
+
+.menu-height{
+    height: 130px;
+}
+
+.menu-height2{
+    height: 60px;
+}
+.center-links2{
+    margin-top: -10px;
+    font-size: 1.2em;        
+}
+
+.nav, .navbar{
+    font-size: 20px;
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+#logo2{    
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.center-main-logo{
+    margin-top: -14px;
+}
+
+.menu-grad{
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#534077+4,9ca1bc+44,f0ebe4+83,edebf4+91,edebf4+91 */
+background-color: #1B2F3F;
+}
+
+.icon-cog {
+  color: black;
+}
+
+.top50{
+    margin-top: 50px;    
+}
+
+
+time.icon
+{
+  font-size: 0.5em; /* change icon size */
+  display: block;
+  position: relative;
+  width: 7em;
+  height: 7em;
+  background-color: #fff;
+  margin: 1.6em auto;
+  border-radius: 0.6em;
+  box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: rotate(0deg) skewY(0deg);
+  -webkit-transform-origin: 50% 10%;
+  transform-origin: 50% 10%;
+}
+
+time.icon *
+{
+  display: block;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+time.icon strong
+{
+  position: absolute;
+  top: 0;
+  padding: 0.2em 0;
+  color: #fff;
+  background-color: #1B2F3F;
+  border-bottom: 1px dashed #1B2F3F;
+  box-shadow: 0 2px 0 #1B2F3F;
+}
+
+time.icon em
+{
+  position: absolute;
+  bottom: 0.2em;
+  color: #1B2F3F;
+}
+
+time.icon span
+{
+  width: 100%;
+  font-size: 2.8em;
+  letter-spacing: -0.05em;
+  padding-top: 0.8em;
+  color: #2f2f2f;
+}
+
+#calendicon{
+    width: 66px;
+    position: relative;
+    float: left;
+    margin-top: -13px;
+} 
+.media-body p{
+    width: 90%;
+    margin-left: 75px;
+}
+table{
+    font-size: 0.78em;
+}
+
+.table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td{
+    padding: 2px;
+}
+
+table tr td:first-child{
+    text-align: right;
+    padding-right: 7px;
+}
+
+.scrollable{
+    height: 360px;
+    overflow-y: scroll;
+}
+
+.eventos p, a{
+    font-size: 0.9em;
+}
+    
+.eventos a.saiba-mais{
+    float:right;
+}
